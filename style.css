@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    background-color: white;
+}
+
+ul{
+    float: right;
+}
+li{
+    float: left;
+
+    list-style-type: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+}
+
+#photo{
+    margin-top: 15%;
+    margin-left: 10%;
+    display: block;
+    
+}
+#photo img{
+    border-radius: 50%;
+    width: 30%;
+    border-style: outset;
+    border-color: white;
+}
+
+.content{
+    padding-left: 30%;
+    float: right;
+    
+}
+h1{
+    float:left ;
+}
+p{
+    float: left;
+}
+h3{
+    float: left;
+    padding-top: 90px;
+    
+}
+.gif a{
+    display: inline;
+    float: left;
+}
+.gif, a img{ 
+    display: flex;
+    float: left;
+    padding-top: 90px;
+    border-radius: 50%;
+}
+
+.footer{
+    display: block;
+}
+form{
+    margin-left: 35%;
+    margin-bottom: 100px;
+    display: block;
+}
+form input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+form textarea{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+form input[type="submit"]{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
